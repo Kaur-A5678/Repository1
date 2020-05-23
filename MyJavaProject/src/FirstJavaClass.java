@@ -31,14 +31,16 @@ public class FirstJavaClass {
 		System.out.println("Your Last Name is: "+LastName);
 		System.out.println("The sum is : "+SumMethod(25, 45.22));
 		System.out.println("------------------");
-		System.out.println(" ----End----");
+		System.out.println("-----End------");
+		System.out.println("this is my first program to learn git");
 	}
 	public static void callingmethod()
 	{
 	  System.out.println("This a method called by main method");	
 	}
 
-   public static double SumMethod(int num1,double num2) {
+   public static double SumMethod(int num1,double num2) 
+   {
 		
 		return (num1+num2);
 		
